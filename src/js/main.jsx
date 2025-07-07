@@ -6,21 +6,19 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap"
 
 //Images
-import rigoImage from "../../img/rigo-baby.jpg";
+import rigoImage from "../img/rigo-baby.jpg";
 
 // index.css'
 import '../styles/index.css'
 
 // components
-import Navbar from './components/Navbar';
-import Content from './components/Content';
-import Footer from './components/Footer';
 
+import { Navbar } from "./components/Navbar";
+// import { Content } from "./components/Content";
+// import { Footer } from "./components/Footer";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Navbar />
-    <Content />
-    <Footer />
   </React.StrictMode>,
 )
