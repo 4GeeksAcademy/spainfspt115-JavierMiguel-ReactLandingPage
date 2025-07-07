@@ -12,11 +12,12 @@ import '../styles/index.css'
 
 import { Navbar } from "./components/Navbar";
 import { Content } from "./components/Content";
-// import { Footer } from "./components/Footer";
+import { Footer } from "./components/Footer";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Navbar />
     <Content />
+    <Footer />
   </React.StrictMode>,
 )
